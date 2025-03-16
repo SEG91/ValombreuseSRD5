@@ -1,0 +1,190 @@
+{
+  "id": "ValombreuseSRD5",
+  "title": "Valombreuse ",
+  "description": "a module for the world of Valombreuse 5e compliant",
+  "authors": [
+    {
+      "name": "SEG91",
+      "url": "https://github.com/SEG91",
+      "flags": {}
+    }
+  ],
+  "version": "0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "verified": "2.1.5"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/SEG91/Valombreuse",
+  "manifest": "https://raw.githubusercontent.com/SEG91/Valombreuse/main/module.json",
+  "download": "https://github.com/SEG91/Valombreuse/archive/main.zip",
+  "packs": [
+    {
+      "name": "aptitudes-speciales-valombreuse",
+      "system": "dnd5e",
+      "label": "Feature (Valombreuse)",
+      "path": "packs/aptitudes-speciales-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "classes-valombreuse",
+      "system": "dnd5e",
+      "label": "Classes (Valombreuse)",
+      "path": "packs/classes-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "dons-valombreuse",
+      "system": "dnd5e",
+      "label": "Feats (Valombreuse)",
+      "path": "packs/dons-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "lignee-valombreuse",
+      "system": "dnd5e",
+      "label": "Bloodlines (Valombreuse)",
+      "path": "packs/lignee-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "magie-du-sang-valombreuse",
+      "system": "dnd5e",
+      "label": "Blood Magic (Valombreuse)",
+      "path": "packs/magie-du-sang-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pretires-valombreuse",
+      "system": "dnd5e",
+      "label": "Premade Characters (Valombreuse)",
+      "path": "packs/pretires-valombreuse.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "faune-valombreuse",
+      "system": "dnd5e",
+      "label": "NPCs (Valombreuse)",
+      "path": "packs/faune-valombreuse.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "capacite-de-creatures-valombreuse",
+      "system": "dnd5e",
+      "label": "Capacité de creatures (Valombreuse)",
+      "path": "packs/capacite-de-creatures-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "capacite-des-sang-impurs-valombreuse",
+      "system": "dnd5e",
+      "label": "Capacité des Sang Impurs (Valombreuse)",
+      "path": "packs/capacite-des-sang-impurs-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "systemes-de-lingenieur-valombreuse",
+      "system": "dnd5e",
+      "label": "Systemes de l'Ingénieur (Valombreuse)",
+      "path": "packs/systemes-de-lingenieur-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "creatures-de-lingenieur-valombreuse",
+      "system": "dnd5e",
+      "label": "Engineer Gears (Valombreuse)",
+      "path": "packs/creatures-de-lingenieur-valombreuse.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "inventions-valombreuse",
+      "system": "dnd5e",
+      "label": "Engineer Systems (Valombreuse)",
+      "path": "packs/inventions-valombreuse.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Taroticum",
+      "type": "Cards",
+      "name": "taroticum",
+      "path": "packs/taroticum.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Scenes (Valombreuse)",
+      "type": "Scene",
+      "name": "scene--in-sole-veritas",
+      "path": "packs/scene--in-sole-veritas.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "NPCs (Valombreuse)",
+      "type": "Actor",
+      "name": "pnj-valombreuse",
+      "path": "packs/pnj-valombreuse.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+	{
+      "label": "Conditions (Valombreuse)",
+      "type": "Item",
+      "name": "conditions-valombreuse",
+      "path": "packs/conditions-valombreuse.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Objects (Valombreuse)",
+      "type": "Item",
+      "name": "objets-valombreuse",
+      "path": "packs/objets-valombreuse.db",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/init.js"
+  ]
+}
