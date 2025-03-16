@@ -26,9 +26,9 @@
       }
     ]
   },
-  "url": "https://github.com/SEG91/Valombreuse",
-  "manifest": "https://raw.githubusercontent.com/SEG91/Valombreuse/main/module.json",
-  "download": "https://github.com/SEG91/Valombreuse/archive/main.zip",
+  "url": "https://github.com/SEG91/ValombreuseSRD5",
+  "manifest": "https://raw.githubusercontent.com/SEG91/ValombreuseSRD5/main/module.json",
+  "download": "https://github.com/SEG91/ValombreuseSRD5/archive/main.zip",
   "packs": [
     {
       "name": "aptitudes-speciales-valombreuse",
