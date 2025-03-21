@@ -33,7 +33,7 @@
     {
       "name": "aptitudes-speciales-valombreuse",
       "system": "dnd5e",
-      "label": "Feature (Valombreuse)",
+      "label": "Realms (Valombreuse)",
       "path": "packs/aptitudes-speciales-valombreuse.db",
       "type": "Item",
       "private": false,
@@ -87,7 +87,7 @@
     {
       "name": "faune-valombreuse",
       "system": "dnd5e",
-      "label": "NPCs (Valombreuse)",
+      "label": "Creatures (Valombreuse)",
       "path": "packs/faune-valombreuse.db",
       "type": "Actor",
       "private": false,
@@ -96,7 +96,7 @@
     {
       "name": "capacite-de-creatures-valombreuse",
       "system": "dnd5e",
-      "label": "Capacité de creatures (Valombreuse)",
+      "label": "Backgrounds (Valombreuse)",
       "path": "packs/capacite-de-creatures-valombreuse.db",
       "type": "Item",
       "private": false,
@@ -105,7 +105,7 @@
     {
       "name": "capacite-des-sang-impurs-valombreuse",
       "system": "dnd5e",
-      "label": "Capacité des Sang Impurs (Valombreuse)",
+      "label": "NPCs Feats & Magic (Valombreuse)",
       "path": "packs/capacite-des-sang-impurs-valombreuse.db",
       "type": "Item",
       "private": false,
@@ -114,7 +114,7 @@
     {
       "name": "systemes-de-lingenieur-valombreuse",
       "system": "dnd5e",
-      "label": "Systemes de l'Ingénieur (Valombreuse)",
+      "label": "Engineers Systems (Valombreuse)",
       "path": "packs/systemes-de-lingenieur-valombreuse.db",
       "type": "Item",
       "private": false,
@@ -123,7 +123,7 @@
     {
       "name": "creatures-de-lingenieur-valombreuse",
       "system": "dnd5e",
-      "label": "Engineer Gears (Valombreuse)",
+      "label": "Engineer Creations (Valombreuse)",
       "path": "packs/creatures-de-lingenieur-valombreuse.db",
       "type": "Actor",
       "private": false,
@@ -132,7 +132,7 @@
     {
       "name": "inventions-valombreuse",
       "system": "dnd5e",
-      "label": "Engineer Systems (Valombreuse)",
+      "label": "Engineer Gears (Valombreuse)",
       "path": "packs/inventions-valombreuse.db",
       "type": "Item",
       "private": false,
@@ -175,7 +175,7 @@
       "flags": {}
     },
     {
-      "label": "Objects (Valombreuse)",
+      "label": "Items (Valombreuse)",
       "type": "Item",
       "name": "objets-valombreuse",
       "path": "packs/objets-valombreuse.db",
