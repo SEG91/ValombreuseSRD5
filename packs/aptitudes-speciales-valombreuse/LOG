@@ -1,3 +1,5 @@
-2025/03/21-17:58:13.746 29ac Recovering log #13
-2025/03/21-17:58:13.763 29ac Delete type=0 #13
-2025/03/21-17:58:13.764 29ac Delete type=3 #12
+2025/03/21-18:07:05.621 59bc Recovering log #15
+2025/03/21-18:07:05.621 59bc Level-0 table #17: started
+2025/03/21-18:07:05.627 59bc Level-0 table #17: 2577 bytes OK
+2025/03/21-18:07:05.644 59bc Delete type=0 #15
+2025/03/21-18:07:05.645 59bc Delete type=3 #14
