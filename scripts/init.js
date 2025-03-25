@@ -1,24 +1,8 @@
 Hooks.on("setup", () => {
 	console.log("init:Hooksonsetup");
-CONFIG.DND5E.spellSchools.AncienBlood = "Manipulation du Sang Ancien";
-CONFIG.DND5E.spellSchools.PuissOurs = "Puissance de l'Ours";
-CONFIG.DND5E.spellSchools.ComNat = "Communion avec la Nature";
-CONFIG.DND5E.spellSchools.Ombre = "Domaine de l'Ombre";
-CONFIG.DND5E.spellSchools.Corrupt = "Domaine de la Corruption";
-CONFIG.DND5E.spellSchools.Meute = "Pouvoir de la Meute";
-CONFIG.DND5E.spellSchools.Alpha = "Domination de l'Alpha";
-CONFIG.DND5E.spellSchools.Vision = "Vision de l'Aigle";
-CONFIG.DND5E.spellSchools.Air = "Maîtrise de l'Air";
-CONFIG.DND5E.spellSchools.ForTau = "Force du Taureau ";
-CONFIG.DND5E.spellSchools.Harmonie = "Harmonie avec la Terre";
-CONFIG.DND5E.spellSchools.ASolaire = "Aura Solaire";
-CONFIG.DND5E.spellSchools.Helios = "Fils d'Hélios";
-CONFIG.DND5E.spellSchools.Element = "Dragon des éléments";
-CONFIG.DND5E.spellSchools.Metamorphose = "Métamorphose du Dragon";
-CONFIG.DND5E.spellSchools.Splendeur = "Splendeur du Lion";
-CONFIG.DND5E.spellSchools.Royaume = "Protection du royaume";
-CONFIG.DND5E.spellSchools.FeuPhenix = "Feu du Phénix";
-CONFIG.DND5E.spellSchools.Renaissance = "Renaissance du Phénix";
+CONFIG.DND5E.spellSchools.abd = { label: "Ancient Blood", fullkey: "ancientblood", icon: "module/ValombreuseSRD5/icons/abd.web",reference: ""};
+CONFIG.DND5E.spellSchools.alf = { label: "Animal Form", fullkey: "animalform", icon: "module/ValombreuseSRD5/icons/wildshape.web",reference: ""};
+CONFIG.DND5E.spellSchools.swd = { label: "Shadow Domain", fullkey: "shadowdomain", icon: "module/ValombreuseSRD5/icons/swd.web",reference: ""};
 });
 
 /*Hooks.on('createActor', async function (actor, options, userID) {
@@ -42,13 +26,14 @@ Hooks.on("renderActorSheet", DebugDisplay);*/
 function UpdateActorResourceName(actor, data, options, userId) {
 //do my things here
 //console.trace();
-if (actor.details!=null){
-	actor.system.resources.primary.label="Sang Ancien";
-	actor.system.resources.primary.max=(actor.system.abilities.int.value -1)*actor.details.level;
+if (actor.system.details!=null){
+	actor.system.resources.primary.label="Divination Point";
+  let rp = actor.system.abilities.wis.mod*actor.system.details.level;
+	actor.system.resources.primary.max=rp;
 	}
 };
 
-Hooks.on('updateActor', UpdateActorResourceName);
+Hooks.on('dropActorSheetData', UpdateActorResourceName);
 
 function CardDealed(from, to, action) {
 //do my things here
