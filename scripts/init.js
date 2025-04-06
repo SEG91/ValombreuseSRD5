@@ -3,6 +3,8 @@ Hooks.on("setup", () => {
 CONFIG.DND5E.spellSchools.abd = { label: "Ancient Blood", fullkey: "ancientblood", icon: "module/ValombreuseSRD5/icons/abd.web",reference: ""};
 CONFIG.DND5E.spellSchools.alf = { label: "Animal Form", fullkey: "animalform", icon: "module/ValombreuseSRD5/icons/wildshape.web",reference: ""};
 CONFIG.DND5E.spellSchools.swd = { label: "Shadow Domain", fullkey: "shadowdomain", icon: "module/ValombreuseSRD5/icons/swd.web",reference: ""};
+CONFIG.DND5E.spellSchools.pxf = { label: "Phoenix Fire", fullkey: "phoenixfire", icon: "module/ValombreuseSRD5/icons/Pxf.web",reference: ""};
+CONFIG.DND5E.spellSchools.sol = { label: "Splendor of the Lion", fullkey: "splendorlion", icon: "module/ValombreuseSRD5/icons/sol.web",reference: ""};
 });
 
 /*Hooks.on('createActor', async function (actor, options, userID) {
