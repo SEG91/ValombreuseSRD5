@@ -5,6 +5,10 @@ CONFIG.DND5E.spellSchools.alf = { label: "Animal Form", fullkey: "animalform", i
 CONFIG.DND5E.spellSchools.swd = { label: "Shadow Domain", fullkey: "shadowdomain", icon: "module/ValombreuseSRD5/icons/swd.web",reference: ""};
 CONFIG.DND5E.spellSchools.pxf = { label: "Phoenix Fire", fullkey: "phoenixfire", icon: "module/ValombreuseSRD5/icons/Pxf.web",reference: ""};
 CONFIG.DND5E.spellSchools.sol = { label: "Splendor of the Lion", fullkey: "splendorlion", icon: "module/ValombreuseSRD5/icons/sol.web",reference: ""};
+CONFIG.DND5E.spellSchools.pob = { label: "Power of the Bear", fullkey: "powerbear", icon: "module/ValombreuseSRD5/icons/pob.web",reference: ""};
+CONFIG.DND5E.spellSchools.aad = { label: "Alpha Domination", fullkey: "alphadomination", icon: "module/ValombreuseSRD5/icons/aad.web",reference: ""};
+CONFIG.DND5E.spellSchools.eev = { label: "Eagle Vision", fullkey: "eaglevision", icon: "module/ValombreuseSRD5/icons/eev.web",reference: ""};
+CONFIG.DND5E.spellSchools.eld = { label: "Elemental Dragon", fullkey: "elementaldragon", icon: "module/ValombreuseSRD5/icons/eld.web",reference: ""};
 });
 
 /*Hooks.on('createActor', async function (actor, options, userID) {
