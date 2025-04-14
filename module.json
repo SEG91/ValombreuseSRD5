@@ -9,7 +9,7 @@
       "flags": {}
     }
   ],
-  "version": "0.4.3",
+  "version": "0.4.4",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315"
@@ -172,6 +172,18 @@
       "path": "packs/conditions-valombreuse.db",
       "system": "dnd5e",
       "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Rules and Adventures",
+      "type": "JournalEntry",
+      "name": "rules-and-adventures",
+      "path": "packs/rules-and-adventures",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
