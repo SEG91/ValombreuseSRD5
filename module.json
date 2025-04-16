@@ -9,7 +9,7 @@
       "flags": {}
     }
   ],
-  "version": "0.4.6",
+  "version": "0.4.7",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315"
@@ -175,7 +175,7 @@
       "flags": {}
     },
     {
-      "label": "Rules and Adventures",
+      "label": "Rules and Adventures (Valombreuse)",
       "type": "JournalEntry",
       "name": "rules-and-adventures",
       "path": "packs/rules-and-adventures",
@@ -193,6 +193,18 @@
       "path": "packs/objets-valombreuse.db",
       "system": "dnd5e",
       "private": false,
+      "flags": {}
+    },
+    {
+      "label": "GM Items & Handouts (Valombreuse)",
+      "type": "Item",
+      "name": "gm-items-and-handouts",
+      "path": "packs/gm-items-and-handouts",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     }
   ],
