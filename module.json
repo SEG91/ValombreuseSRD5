@@ -9,7 +9,7 @@
       "flags": {}
     }
   ],
-  "version": "0.4.8",
+  "version": "0.4.9",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315"
@@ -36,7 +36,7 @@
     {
       "name": "aptitudes-speciales-valombreuse",
       "system": "dnd5e",
-      "label": "Realms (Valombreuse)",
+      "label": "The Kingdoms (Valombreuse)",
       "path": "packs/aptitudes-speciales-valombreuse.db",
       "type": "Item",
       "private": false,
