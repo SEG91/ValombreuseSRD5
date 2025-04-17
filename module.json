@@ -9,7 +9,7 @@
       "flags": {}
     }
   ],
-  "version": "0.4.7",
+  "version": "0.4.8",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315"
@@ -26,6 +26,9 @@
       }
     ]
   },
+  "styles": [
+      "valombreuse.css"
+  ],
   "url": "https://github.com/SEG91/ValombreuseSRD5",
   "manifest": "https://raw.githubusercontent.com/SEG91/ValombreuseSRD5/main/module.json",
   "download": "https://github.com/SEG91/ValombreuseSRD5/archive/main.zip",
