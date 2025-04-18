@@ -133,3 +133,6 @@
   margin: 5px;
   border: none;
 }
+.valombreuse-journal th, td {
+  text-align: center;
+}
