@@ -9,7 +9,7 @@
       "flags": {}
     }
   ],
-  "version": "0.5.1",
+  "version": "0.5.2",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315"
@@ -169,7 +169,7 @@
       "flags": {}
     },
 	{
-      "label": "Conditions (Valombreuse)",
+      "label": "Critical Wounds(Valombreuse)",
       "type": "Item",
       "name": "conditions-valombreuse",
       "path": "packs/conditions-valombreuse.db",
@@ -203,6 +203,18 @@
       "type": "Item",
       "name": "gm-items-and-handouts",
       "path": "packs/gm-items-and-handouts",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Critical Wound Tables",
+      "type": "RollTable",
+      "name": "critical-wound-tables",
+      "path": "packs/critical-wound-tables",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
