@@ -1,5 +1,5 @@
-2025/04/19-19:22:34.700 5460 Recovering log #88
-2025/04/19-19:22:34.701 5460 Level-0 table #91: started
-2025/04/19-19:22:34.706 5460 Level-0 table #91: 9792 bytes OK
-2025/04/19-19:22:34.723 5460 Delete type=0 #88
-2025/04/19-19:22:34.723 5460 Delete type=3 #84
+2025/04/20-12:15:47.441 6bcc Recovering log #92
+2025/04/20-12:15:47.444 6bcc Level-0 table #94: started
+2025/04/20-12:15:47.460 6bcc Level-0 table #94: 718294 bytes OK
+2025/04/20-12:15:47.477 6bcc Delete type=0 #92
+2025/04/20-12:15:47.477 6bcc Delete type=3 #90
