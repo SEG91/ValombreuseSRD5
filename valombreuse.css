@@ -136,3 +136,20 @@
 .valombreuse-journal th, td {
   text-align: center;
 }
+.valombreuse-journal .conseil-image {
+  width: 50px;
+  height: 50px;
+  border: none;
+  float: left;
+  margin-right: 10px;
+}
+
+.valombreuse-journal .conseil-foundry {
+  background-color: #ff66008e;
+  text-indent: 0cm;
+  border-style: solid;
+  border: 2px solid black;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0 8px 8px -7px var(--color-shadow-dark);
+  padding: 10px 14px 16px 18px;
+}
